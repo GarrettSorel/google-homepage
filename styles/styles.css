@@ -13,27 +13,81 @@ ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .main-nav li {
   display: block;
   float: left;
-  margin: 2px;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
-.main-nav-right li {
+.main-nav-right {
   float: right;
+  padding-right: 5px;
 }
 
 .menu-dots {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
+}
+
+.sign-in-btn {
+  color: #fff;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+  border-radius: 2px;
+	line-height: 28px;
+	padding: 0px 12px;
+}
+
+.search-container {
+  text-align: -webkit-center;
+  padding-top: 200px;
 }
 
 .search-bar {
-  margin: auto;
-  width: 50%;
-  padding-top: 200px
+  width: 584px;
+	height: 44px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 2px 3px #ddd;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.inner-search {
+  outline: none;
+	border: none;
+  height: 44px;
+	width: 584px;
+}
+
+.search-btns > button {
+	height: 36px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  color: #757575;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
 }
 
 .footer {
@@ -47,9 +101,11 @@ ul {
 .footer li {
   display: block;
   float: left;
-  margin: 2px;
+  padding-left: 15px;
+  padding-top: 18px;
 }
 
 .footer-right li {
   float: right;
+  padding-right: 5px;
 }
